@@ -10,7 +10,7 @@ public class Main {
         TabelaHash tabelaMultiplicacao = new TabelaHashAurea(tamanhoTabela);
         TabelaHash tabelaSimples = new TabelaHashASCII(tamanhoTabela);
 
-        List<String> nomes = lerNomes("src/female_names.txt");
+        List<String> nomes = lerNomes("src/female_names.txt"); //Copie o caminho do seu arquivo aqui
 
         System.out.println("Inserindo nomes nas tabelas hash...");
         for (String nome : nomes) {
